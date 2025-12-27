@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frames Layout</title>
+</head>
+
+<!-- Header = 100px, Main = *, Footer = 80px -->
+<frameset rows="100,*,80" frameborder="1">
+
+  <!-- Header -->
+  <frame src="4-header.html" name="headerFrame">
+
+  <!-- Middle area = Sidebar + Content (equal width) -->
+  <frameset cols="50%,50%" frameborder="1">
+    <frame src="4-sidebar.html" name="leftFrame">
+    <frame src="4-content.html" name="rightFrame">
+  </frameset>
+
+  <!-- Footer -->
+  <frame src="4-footer.html" name="footerFrame">
+
+</frameset>
+
+</html>
+
+
